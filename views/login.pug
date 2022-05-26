@@ -1,0 +1,18 @@
+extends layout
+
+block layout-content
+    div.mt-32.p-4.justify-center.grid
+        h2.uppercase.text-3xl Log into my account
+        form(action="" method="" name="login")
+            div
+                input#email.px-2.py-1.rounded-md.m-2.border-solid.border-2.w-full(name="email" type="text" placeholder="Email")
+            div
+                input#password.px-2.py-1.rounded-md.m-2.border-solid.border-2.w-full(name="password" type="password" placeholder="Password")
+            div
+                input#btn.px-3.py-2.rounded-md.m-2.bg-orange-600.text-white.w-full(type="submit" value="login")
+            div
+                a(href="#").px-3.py-2 Forgot Password
+
+
+
+
